@@ -16,14 +16,14 @@ function displayTable($result) {
         echo "<table border='1' cellpadding='6' cellspacing='0' style='border-collapse:collapse; margin:10px 0; width:80%;'>";
         echo "<tr style='background:#f2f2f2;'>";
         foreach (array_keys($result->fetch_assoc()) as $col) {
-            echo "<th>" . htmlspecialchars($col) . "</th>";
+            echo "<th>" . htmlspecialchars($col ?? '') . "</th>";
         }
 
         $result->data_seek(0);
         while ($row = $result->fetch_assoc()) {
             echo "<tr>";
             foreach ($row as $value) {
-                echo "<td>" . htmlspecialchars($value) . "</td>";
+                echo "<td>" . htmlspecialchars($value ?? '') . "</td>";
             }
             echo "</tr>";
         }
