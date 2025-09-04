@@ -45,11 +45,11 @@ You can also connect to the MySQL container using DataGrip or any SQL client.
 **Connection settings:**
 
 | Setting  | Value       |
-| -------- | ----------- |
+| -------- |-------------|
 | Host     | `localhost` |
 | Port     | `3306`      |
-| Username | `root`      |
-| Password | `root`      |
+| Username | `bloguser`  |
+| Password | `blogpass`  |
 | Database | `myblog`    |
 
 > **Note:** If you connect with DataGrip, you can populate and manage the database there while following the next 
