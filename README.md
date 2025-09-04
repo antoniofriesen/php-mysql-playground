@@ -29,7 +29,7 @@ After starting the Docker environment, you need to create the `myblog` database 
 #### **1. Connect to the MySQL container**
 ```bash
 docker exec -it mysql mysql -u root -p
-# Enter password: root
+# Enter password: rootpw
 ```
 
 #### **2. Create the database**
