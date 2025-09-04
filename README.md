@@ -23,8 +23,8 @@ Make sure you have the following installed:
 
 ### **1. Clone the repository**
 ```bash
-git clone https://github.com/yourusername/playground-sql.git
-cd playground-sql
+git clone https://github.com/yourusername/php-mysql-playground.git
+cd php-mysql-playground
 ```
 
 ### **2. Start the Docker environment**
