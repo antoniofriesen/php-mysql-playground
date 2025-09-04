@@ -52,7 +52,8 @@ You can also connect to the MySQL container using DataGrip or any SQL client.
 | Password | `root`      |
 | Database | `myblog`    |
 
-**Note:** If you connect with DataGrip, you can populate and manage the database there while following the next steps. Otherwise, continue using the terminal.
+> **Note:** If you connect with DataGrip, you can populate and manage the database there while following the next 
+> steps. Otherwise, continue using the terminal.
 
 #### **3.2. Connect to the MySQL container via terminal**
 ```bash
